@@ -80,6 +80,8 @@ main{
 }
 .video-info{
     padding-top: 10px;
+    display: flex;
+    flex-direction: row;
 }
 .video-info img{
     max-width: 42px;
@@ -87,16 +89,15 @@ main{
     width: auto;
     height: auto;
 }
-.title{
+.video-info h4 {
     font-size: 14px;
     font-weight: 600;
-    display: flex;
-    flex-direction: row;
+    padding-left: 10px;
 }
 .video-info p{
     font-size: 12px;
     font-weight: 400;
-    color: #535353;
+    color: #535353;    
 }
 
 
