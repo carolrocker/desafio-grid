@@ -1,0 +1,102 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+*{
+    margin: 0px;
+    font-family: 'Roboto';
+}
+body{
+    background-color: #f0f0f0;
+}
+/*header grid*/
+header{
+    display: grid;
+    grid: "header header header" 1fr;
+    padding: 0px 24px 0px 24px;
+    width: 1440px;
+    height: 56px;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #FFFFFF;
+}
+.search-input{
+    width: 348px;
+    height: 40px;
+}
+.button-img{
+    background-image: url(search.png);
+    width: 57px;
+    height: 40px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 24px;
+    border-color: #CCCCCC;
+}
+.icons{
+    max-width: 24px;
+    max-height: 24px;
+    width: auto;
+    height: auto;
+}
+#right-header{
+    display: flex;
+    gap: 32px;
+    margin: 15px;
+}
+#search-box{
+    display: flex;
+    gap: 0px;
+}
+#left-header{
+    display: flex;
+    gap: 24px;
+}
+/*sidebar grid*/
+#sidebar{
+    width: 218px;
+    height: 968px;
+    padding: 24px;
+    gap: 22px;
+    background-color: #FFFFFF;
+
+    display: grid;
+    justify-content: center;
+    align-content: start;
+}
+.menu{
+    font-size: 14px;
+    font-weight: 400px;
+    display: flex;
+    align-items: center;
+    gap: 16px;
+}
+/*main grid*/
+main{
+    display: grid;
+    grid-template-columns: repeat(4, 262px);
+    grid-template-rows: repeat(3, 282px);
+    position: absolute;
+    top: 95px;
+    left: 310px;
+    column-gap: 30px;
+}
+.video-info{
+    padding-top: 10px;
+}
+.video-info img{
+    max-width: 42px;
+    max-height: 42px;
+    width: auto;
+    height: auto;
+}
+.title{
+    font-size: 14px;
+    font-weight: 600;
+    display: flex;
+    flex-direction: row;
+}
+.video-info p{
+    font-size: 12px;
+    font-weight: 400;
+    color: #535353;
+}
+
+
